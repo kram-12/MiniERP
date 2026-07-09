@@ -80,6 +80,12 @@ mini-erp/
 │   ├── ProductStockReport.java
 │   └── PlaceOrderDemo.java
 │
+├── screenshots/
+│   ├── EmpReport.png
+│   ├── ProductReport.png
+│   ├── PlaceOrderDemo.png
+│   └── UpdatedProductReport.png
+│
 └── README.md
 ```
 
@@ -165,6 +171,34 @@ Displays product information and current stock quantities.
 ### PlaceOrderDemo.java
 
 Creates a sample order, inserts order items, finalizes the order, calculates totals, and updates product inventory.
+
+---
+
+## Screenshots
+
+### Employee Report
+
+Shows employee data fetched from Oracle XE using JDBC in JDeveloper.
+
+![Employee Report](screenshots/EmpReport.png)
+
+### Product Stock Report (Before Order)
+
+Shows the available product stock before placing an order.
+
+![Product Stock Report Before Order](screenshots/ProductReport.png)
+
+### Place Order Demo
+
+Shows successful order placement with calculated total and confirmed order status.
+
+![Place Order Demo](screenshots/PlaceOrderDemo.png)
+
+### Product Stock Report (After Order)
+
+Shows updated stock after order placement.
+
+![Product Stock Report After Order](screenshots/UpdatedProductReport.png)
 
 ---
 
